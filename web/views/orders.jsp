@@ -59,6 +59,8 @@
                         <% } %>
                             <li class="nav-item"><a href="${pageContext.request.contextPath}/orders"
                                     class="nav-link active"><i class="fas fa-shopping-cart me-2"></i>Pesanan</a></li>
+                            <li class="nav-item"><a href="${pageContext.request.contextPath}/report" class="nav-link"><i
+                                        class="fas fa-chart-bar me-2"></i>Laporan</a></li>
                             <% if("admin".equals(session.getAttribute("role"))) { %>
                                 <li class="nav-item"><a href="${pageContext.request.contextPath}/admin-panel"
                                         class="nav-link"><i class="fas fa-user-shield me-2"></i>Admin Panel</a></li>
